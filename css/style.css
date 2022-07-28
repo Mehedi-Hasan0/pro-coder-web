@@ -5,6 +5,7 @@ body {
 p{
     color: #777777;
 }
+
 /* small device  */
 @media screen and (max-width: 414px) {
     body {
