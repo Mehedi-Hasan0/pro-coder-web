@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    
+
 }
 /* small device  */
 @media screen and (max-width: 414px) {
@@ -13,4 +13,18 @@ body {
     .navbar-brand img {
         width: 132px;
     }
+}
+.slider-txt-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title-res-txt{
+    font-size: 4vw;
+}
+
+.p-res-txt{
+    font-size: 1.5vw;
 }
