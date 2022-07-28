@@ -1,15 +1,22 @@
 body {
     font-family: 'Poppins', sans-serif;
-
+    margin: 0 70px;
 }
 /* small device  */
 @media screen and (max-width: 414px) {
+    body {
+        margin: 0 20px;
+    }
     .navbar-brand img {
         width: 104px;
     }
+
 }
 /* medium device */
 @media screen and (min-width: 420px) and (max-width: 900px) {
+    body {
+        margin: 0 40px;
+    }
     .navbar-brand img {
         width: 132px;
     }
