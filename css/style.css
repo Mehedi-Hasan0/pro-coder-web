@@ -2,6 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0 70px;
 }
+p{
+    color: #777777;
+}
 /* small device  */
 @media screen and (max-width: 414px) {
     body {
@@ -10,7 +13,6 @@ body {
     .navbar-brand img {
         width: 104px;
     }
-
 }
 /* medium device */
 @media screen and (min-width: 420px) and (max-width: 900px) {
