@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+}
+main {
     margin: 0 70px;
 }
 p{
@@ -8,7 +10,7 @@ p{
 
 /* small device  */
 @media screen and (max-width: 414px) {
-    body {
+    main {
         margin: 0 20px;
     }
     .navbar-brand img {
@@ -17,7 +19,7 @@ p{
 }
 /* medium device */
 @media screen and (min-width: 420px) and (max-width: 900px) {
-    body {
+    main {
         margin: 0 40px;
     }
     .navbar-brand img {
